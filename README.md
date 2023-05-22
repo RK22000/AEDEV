@@ -1,5 +1,8 @@
 # AEDEV
+
 Anti Entropy Detection for Encrypted Viruses
+
+Only a portion of the reports are in the dirictory virusTotal. The actual and complete virusTotal dirictory is compressed in VT.zip
 
 ---
 

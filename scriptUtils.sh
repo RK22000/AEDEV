@@ -1,0 +1,1 @@
+eta() { ttt=$(grep applied masklog.txt | tail -c 9); hh=$(echo $ttt | head -c 2); mm=$(echo $ttt | tail -c 6 | head -c 2); fls=$(grep applied masklog.txt | wc -l); echo $(( ($hh*60+$mm) * 33276 / $fls )); }
